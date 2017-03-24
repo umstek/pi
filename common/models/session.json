@@ -29,6 +29,16 @@
       "type": "belongsTo",
       "model": "Timeline",
       "foreignKey": ""
+    },
+    "task": {
+      "type": "belongsTo",
+      "model": "Task",
+      "foreignKey": ""
+    },
+    "interruptions": {
+      "type": "embedsMany",
+      "model": "Interruption",
+      "foreignKey": ""
     }
   },
   "acls": [],

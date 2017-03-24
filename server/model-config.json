@@ -80,5 +80,9 @@
   "Article": {
     "dataSource": "mongodbds",
     "public": true
+  },
+  "OneTimeEvent": {
+    "dataSource": "mongodbds",
+    "public": true
   }
 }

@@ -20,9 +20,9 @@
       "model": "Subject",
       "foreignKey": ""
     },
-    "systemUser": {
+    "student": {
       "type": "belongsTo",
-      "model": "SystemUser",
+      "model": "Student",
       "foreignKey": ""
     }
   },

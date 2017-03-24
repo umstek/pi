@@ -30,7 +30,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "frequencies": {
+      "type": "embedsOne",
+      "model": "Frequency",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

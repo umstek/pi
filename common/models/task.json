@@ -28,6 +28,21 @@
       "type": "belongsTo",
       "model": "Calendar",
       "foreignKey": ""
+    },
+    "sessions": {
+      "type": "hasMany",
+      "model": "Session",
+      "foreignKey": ""
+    },
+    "event": {
+      "type": "belongsTo",
+      "model": "Event",
+      "foreignKey": ""
+    },
+    "subjectTopic": {
+      "type": "belongsTo",
+      "model": "SubjectTopic",
+      "foreignKey": ""
     }
   },
   "acls": [],

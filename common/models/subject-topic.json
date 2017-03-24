@@ -20,6 +20,21 @@
       "type": "belongsTo",
       "model": "Subject",
       "foreignKey": ""
+    },
+    "tasks": {
+      "type": "hasMany",
+      "model": "Task",
+      "foreignKey": ""
+    },
+    "subjectTopics": {
+      "type": "hasMany",
+      "model": "SubjectTopic",
+      "foreignKey": ""
+    },
+    "subjectTopic": {
+      "type": "belongsTo",
+      "model": "SubjectTopic",
+      "foreignKey": ""
     }
   },
   "acls": [],

@@ -35,6 +35,11 @@
       "type": "hasMany",
       "model": "SubjectTopic",
       "foreignKey": ""
+    },
+    "events": {
+      "type": "hasMany",
+      "model": "Event",
+      "foreignKey": ""
     }
   },
   "acls": [],

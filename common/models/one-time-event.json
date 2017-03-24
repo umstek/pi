@@ -1,0 +1,22 @@
+{
+  "name": "OneTimeEvent",
+  "base": "Event",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "startDateAndTime": {
+      "type": "date",
+      "required": true
+    },
+    "endDateAndTime": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -28,6 +28,11 @@
       "type": "hasMany",
       "model": "Task",
       "foreignKey": ""
+    },
+    "subject": {
+      "type": "belongsTo",
+      "model": "Subject",
+      "foreignKey": ""
     }
   },
   "acls": [],
