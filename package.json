@@ -2,6 +2,10 @@
   "name": "pi",
   "version": "1.0.0",
   "main": "server/server.js",
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3.8"
+  },
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
