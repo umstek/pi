@@ -1,6 +1,6 @@
 {
-  "name": "SystemUser",
-  "base": "User",
+  "name": "ContentAuthor",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -8,14 +8,14 @@
   "properties": {},
   "validations": [],
   "relations": {
-    "contentAuthors": {
-      "type": "hasOne",
-      "model": "ContentAuthor",
+    "systemUser": {
+      "type": "belongsTo",
+      "model": "SystemUser",
       "foreignKey": ""
     },
-    "students": {
-      "type": "hasOne",
-      "model": "Student",
+    "articles": {
+      "type": "hasMany",
+      "model": "Article",
       "foreignKey": ""
     }
   },

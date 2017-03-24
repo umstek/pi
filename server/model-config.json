@@ -68,5 +68,17 @@
   "Syllabus": {
     "dataSource": "mongodbds",
     "public": true
+  },
+  "Student": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "ContentAuthor": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Article": {
+    "dataSource": "mongodbds",
+    "public": true
   }
 }

@@ -1,21 +1,25 @@
 {
-  "name": "SystemUser",
-  "base": "User",
+  "name": "Article",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  },
   "validations": [],
   "relations": {
     "contentAuthors": {
       "type": "hasOne",
       "model": "ContentAuthor",
-      "foreignKey": ""
-    },
-    "students": {
-      "type": "hasOne",
-      "model": "Student",
       "foreignKey": ""
     }
   },

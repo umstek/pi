@@ -1,0 +1,39 @@
+{
+  "name": "Student",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "timers": {
+      "type": "hasMany",
+      "model": "Timer",
+      "foreignKey": ""
+    },
+    "timelines": {
+      "type": "hasOne",
+      "model": "Timeline",
+      "foreignKey": ""
+    },
+    "calendars": {
+      "type": "hasOne",
+      "model": "Calendar",
+      "foreignKey": ""
+    },
+    "syllabuses": {
+      "type": "hasMany",
+      "model": "Syllabus",
+      "foreignKey": ""
+    },
+    "systemUser": {
+      "type": "belongsTo",
+      "model": "SystemUser",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
