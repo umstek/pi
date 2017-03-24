@@ -1,1 +1,12 @@
-{}
+{
+  "mongodbds": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "pi",
+    "password": "pi-tk",
+    "name": "mongodbds",
+    "user": "pi",
+    "connector": "mongodb"
+  }
+}

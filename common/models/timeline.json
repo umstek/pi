@@ -1,0 +1,29 @@
+{
+  "name": "Timeline",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "breaks": {
+      "type": "hasMany",
+      "model": "Break",
+      "foreignKey": ""
+    },
+    "sessions": {
+      "type": "hasMany",
+      "model": "Session",
+      "foreignKey": ""
+    },
+    "systemUser": {
+      "type": "belongsTo",
+      "model": "SystemUser",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

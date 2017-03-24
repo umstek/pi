@@ -1,0 +1,26 @@
+{
+  "name": "Frequency",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "interval": {
+      "type": "string",
+      "required": true
+    },
+    "multiplier": {
+      "type": "number",
+      "required": true
+    },
+    "criteria": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

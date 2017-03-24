@@ -1,0 +1,36 @@
+{
+  "name": "Session",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "startTime": {
+      "type": "date",
+      "required": true
+    },
+    "endTime": {
+      "type": "date",
+      "required": true
+    },
+    "properlyEnded": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    },
+    "rating": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "timeline": {
+      "type": "belongsTo",
+      "model": "Timeline",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

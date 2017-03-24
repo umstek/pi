@@ -1,0 +1,34 @@
+{
+  "name": "SystemUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "timers": {
+      "type": "hasMany",
+      "model": "Timer",
+      "foreignKey": ""
+    },
+    "timelines": {
+      "type": "hasOne",
+      "model": "Timeline",
+      "foreignKey": ""
+    },
+    "calendars": {
+      "type": "hasOne",
+      "model": "Calendar",
+      "foreignKey": ""
+    },
+    "syllabuses": {
+      "type": "hasMany",
+      "model": "Syllabus",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

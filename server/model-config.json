@@ -12,5 +12,61 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "SystemUser": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Timer": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Subject": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Event": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "RecurringEvent": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Frequency": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Task": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "SubjectTopic": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Break": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Session": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Interruption": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Timeline": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Calendar": {
+    "dataSource": "mongodbds",
+    "public": true
+  },
+  "Syllabus": {
+    "dataSource": "mongodbds",
+    "public": true
   }
 }

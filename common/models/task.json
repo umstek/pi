@@ -1,0 +1,35 @@
+{
+  "name": "Task",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "string"
+    },
+    "estTime": {
+      "type": "number",
+      "required": true
+    },
+    "deadline": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "calendar": {
+      "type": "belongsTo",
+      "model": "Calendar",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

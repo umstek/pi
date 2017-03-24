@@ -1,0 +1,42 @@
+{
+  "name": "Subject",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "desc": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    },
+    "difficulty": {
+      "type": "number",
+      "required": true,
+      "default": 1
+    }
+  },
+  "validations": [],
+  "relations": {
+    "syllabus": {
+      "type": "belongsTo",
+      "model": "Syllabus",
+      "foreignKey": ""
+    },
+    "subjectTopics": {
+      "type": "hasMany",
+      "model": "SubjectTopic",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

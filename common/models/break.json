@@ -1,0 +1,28 @@
+{
+  "name": "Break",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "startTime": {
+      "type": "date",
+      "required": true
+    },
+    "endTime": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "timeline": {
+      "type": "belongsTo",
+      "model": "Timeline",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
