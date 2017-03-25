@@ -1,7 +1,7 @@
 {
   "mongodbds": {
-    "host": "ds060009.mlab.com:60009",
-    "port": 27017,
+    "host": "ds060009.mlab.com",
+    "port": 60009,
     "url": "",
     "database": "pi",
     "password": "pi-tk1234",

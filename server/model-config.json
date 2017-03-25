@@ -13,6 +13,10 @@
       "./mixins"
     ]
   },
+  "AccessToken": {
+    "dataSource": "mongodbds",
+    "public": false
+  },
   "SystemUser": {
     "dataSource": "mongodbds",
     "public": true

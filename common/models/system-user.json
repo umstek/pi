@@ -17,6 +17,11 @@
       "type": "hasOne",
       "model": "Student",
       "foreignKey": ""
+    },
+    "accessTokens": {
+      "model": "AccessToken",
+      "type": "hasMany",
+      "foreignKey": "userId"
     }
   },
   "acls": [],
