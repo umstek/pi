@@ -1,0 +1,6 @@
+{
+  "mongodbds": {
+    "name": "db",
+    "connector": "memory"
+  }
+}
