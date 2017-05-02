@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Article"
+  },
+  {
+    "title": "Break"
+  },
+  {
+    "title": "Calendar"
+  },
+  {
+    "title": "Content-Author"
+  },
+  {
+    "title": "Interruption"
+  },
+  {
+    "title": "One-Time-Event"
+  },
+  {
+    "title": "Recurring-Event"
+  },
+  {
+    "title": "Session"
+  },
+  {
+    "title": "Student"
+  },
+  {
+    "title": "Subject"
+  },
+  {
+    "title": "Subject-Topic"
+  },
+  {
+    "title": "System-User"
+  },
+  {
+    "title": "Task"
+  },
+  {
+    "title": "Timer"
+  }
+]
