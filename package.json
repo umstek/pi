@@ -11,7 +11,8 @@
     "start": "node .",
     "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha --reporter spec tests/test",
     "test:windows": "set NODE_ENV=test&& call node .\\node_modules\\mocha\\bin\\mocha --reporter spec tests\\test",
-    "posttest": "npm run lint && nsp check"
+    "posttest": "npm run lint && nsp check",
+    "swagger": "lb export-api-def --json -o \"./client/swagger.json\""
   },
   "dependencies": {
     "compression": "^1.0.3",
